@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "board": "genesis-one",
+  "modules": [
+    { "port": 1, "module_id": "AX22-0003" },
+    { "port": 2, "module_id": "AX22-0034" },
+    { "port": 3, "module_id": "AX22-0056" },
+    { "port": 4, "module_id": "AX22-0050" },
+    { "port": 5, "module_id": "AX22-0003" },
+    { "port": 6, "module_id": "AX22-0004" },
+    { "port": 7, "module_id": "AX22-0017" },
+    { "port": 8, "module_id": "AX22-0053" }
+  ]
+}
