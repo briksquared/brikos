@@ -3161,12 +3161,13 @@ void setup() {
   uint16_t uv = tft.color565(180, 100, 255);
   tft.setTextSize(2);
   tft.setTextColor(uv);
-  const char* txt = "brikOS";
-  int fullW = 6 * 12;
+  const char* txt = "brikOS DRUMS";
+  const int len = (int)strlen(txt);   // length-driven: renaming the splash can't overflow buf
+  int fullW = len * 12;               // textSize 2 → 12 px per glyph (144 px of 160 here)
   int xStart = (160 - fullW) / 2;
   int y = 32;
-  for (int n = 1; n <= 6; n++) {
-    char buf[8] = {0};
+  for (int n = 1; n <= len; n++) {
+    char buf[32] = {0};
     strncpy(buf, txt, n);
     tft.setCursor(xStart, y);
     tft.print(buf);

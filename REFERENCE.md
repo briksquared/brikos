@@ -1,4 +1,4 @@
-# brikOS — control reference
+# brikOS DRUMS — control reference
 
 ## Hardware layout (Axiometa Genesis One)
 

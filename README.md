@@ -1,4 +1,4 @@
-# brikOS
+# brikOS DRUMS
 
 A standalone 7-track drum machine and synthesizer firmware for the
 **[Axiometa Genesis One](https://axiometa.io)** (ESP32-S3). Every sound is DSP-synthesized
